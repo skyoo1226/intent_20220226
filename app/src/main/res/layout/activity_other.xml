@@ -11,9 +11,9 @@
     tools:context=".OtherActivity">
 
     <Button
-        android:id="@+id/btnRetun"
+        android:id="@+id/btnReturn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="이전 화면 복귀"/>
+        android:text="이전 화면으로 복귀" />
 
 </LinearLayout>

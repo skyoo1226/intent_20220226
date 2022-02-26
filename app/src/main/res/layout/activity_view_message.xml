@@ -10,9 +10,10 @@
     tools:context=".ViewMessageActivity">
 
     <TextView
-        android:layout_width="match_parent"
+        android:id="@+id/txtMessage"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="보여지는" />
+        android:text="메인화면에서 보낸 메세지가 나올 자리" />
 
 
 </LinearLayout>
