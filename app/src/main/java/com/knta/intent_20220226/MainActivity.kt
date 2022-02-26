@@ -20,5 +20,11 @@ class MainActivity : AppCompatActivity() {
 
         }
 
+
+        btnSend.setOnClickListener {
+
+            val myIntent = Intent(this,ViewMessageActivity::class.java)
+            myIntent.putExtra("메세지", )
+        }
     }
 }
