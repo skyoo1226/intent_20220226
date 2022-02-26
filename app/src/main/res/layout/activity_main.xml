@@ -82,7 +82,19 @@
         android:id="@+id/btnSms"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="문자보내기 (sms)" />
+        android:text="문자보내기 (sendto)" />
+
+    <Button
+        android:id="@+id/btnNaverLink"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="인터넷연결 (view)" />
+
+    <Button
+        android:id="@+id/btnKakaoAppLink"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="카카오앱 연결 (view)" />
 
 
 </LinearLayout>
