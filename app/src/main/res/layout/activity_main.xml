@@ -71,5 +71,18 @@
         android:layout_height="wrap_content"
         android:text="전화 걸기 (DIAL)" />
 
+    <EditText
+        android:id="@+id/edtSms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="연결할 전화번호"
+        android:inputType="phone" />
+
+    <Button
+        android:id="@+id/btnSms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="문자보내기 (sms)" />
+
 
 </LinearLayout>
